@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'roboto-new';
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
+}
+
+body {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    font-family: roboto-new, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    line-height: 1.4em;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.paragraph {
+    color: navy;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-style: italic;
+    vertical-align: text-bottom;
+}
+
+#first-paragraph {
+    color: #ff006e;
+    background-color: #d5bdaf;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-indent: 20px;
+    text-shadow: 2px 2px 7px #111111;
+}
+
+p.paragraph:first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+p:first-line {
+    font-weight: bolder;
+}
+
+a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: darkcyan;
+}
+
+input {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid red;
+}
+
+input.submit:hover {
+    background-color: purple;
+
+}
+
+input.submit:active {
+    background-color: chocolate;
+}
+input.text {
+    color: #ff006e;
+}

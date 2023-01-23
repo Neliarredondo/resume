@@ -1,0 +1,20 @@
+body {
+    background-color: whitesmoke;
+}
+
+#menu {
+    color: blue;
+}
+
+.paragraph {
+    color: brown;
+}
+
+.important {
+    color: chartreuse;
+}
+
+#iframe {
+    border: 1px solid #665544;
+    padding: 30px;
+}

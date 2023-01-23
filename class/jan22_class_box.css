@@ -1,0 +1,59 @@
+body {
+    background-color: wheat;
+}
+
+p {
+    background-color: #e1ddda;
+    text-align: left;
+    padding: 15px;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    overflow: scroll;
+}
+
+p.one {
+    border-color:black;
+    border-width: thick;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    display: inline-block;
+    width: 60%;
+    float: left;
+
+}
+
+#second-paragraph {
+    border-color:yellow;
+    border-width: thick;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    align-self: right;
+    -moz-box-align: center;
+    float: right;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+li.coming-soon {
+    display: none;
+}
+
+.paraphraphs {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    width: 50%;
+}
+
+#first-div {
+    float: left;
+}
+
+#second-div {
+    float: right;
+}
